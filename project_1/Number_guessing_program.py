@@ -53,7 +53,7 @@ def score_func (guessing_funс):
         guessing_fun (function): Функция передает количество попыток
 
     Returns:
-        int: Среднее число
+        score (int): Среднее число
     """    
     
     count_ls = []
