@@ -57,7 +57,7 @@ def score_func (guessing_funс):
     """    
     
     count_ls = []
-    print (count_ls)
+    
     number_of_attempts = 1000
     for attempt in range(1, number_of_attempts+1):
         count_ls.append(guessing_funс())
