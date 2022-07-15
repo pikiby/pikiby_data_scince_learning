@@ -5,13 +5,12 @@
 from random import random
 import numpy as np
 
-def random_funk():
+def random_funс():
     
     """
     Функция задает рандомное число от 1 до 100. 
     
     """
-    
     random_number = np.random.randint(1, 101)
     return random_number
 
@@ -27,7 +26,7 @@ def guessing_funс ():
         function: количество попыток, затраченных на угадывание
     """    
 
-    number = random_funk ()
+    number = random_funс ()
   
     count = 0 #Количество попыток
     lst_numbers = list(range(1, 101)) #Список, который нужен для определения половины значений. 
