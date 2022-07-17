@@ -8,22 +8,20 @@ def get_most_frequent_word(text):
             
     text=text.lower()
     text=text.split()
-    
     text_dict={}
+    
     for b in text:
         if b in text_dict:
             text_dict[b]+=1
         else: 
             text_dict.update ({b:1})
-    print(text_dict)
+  
     n=0
     key=''
     for c in text_dict:
         if text_dict[c]>n:
-            n= text_dict[c]
-            print (n)
-            key=c
-            print(key)
+            n = text_dict[c]
+            key = c    
     return key
     
 
